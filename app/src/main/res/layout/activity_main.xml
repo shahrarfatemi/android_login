@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nameText"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:hint="Name"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"/>
+
+
+    <Button
+        android:id="@+id/loginButtonId"
+        android:layout_margin="3dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="log in"/>
+
+    <Button
+        android:id="@+id/singupButtonId"
+        android:layout_margin="3dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="sign up"/>
+
+</LinearLayout>
